@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Seneca</title>
+  </head>
+  <body>
+    <div class="mt-4 p-5">
+      <h1 class="text-center">Lucius Annaeus Seneca</h1>
+      <h2 class="text-center"><i>Seneca the Younger</i></h2>
+      <p class="text-center">
+        Lucius Annaeus Seneca was a stoic philosopher whose reputation has
+        endured from ancient Rome through the Medieval and Enlightenment periods
+        to the present day.
+      </p>
+    </div>
+    <div id="carouselSenecaImages" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselSenecaImages"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselSenecaImages"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselSenecaImages"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="container w-50">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="public/seneca.jpg"
+              class="d-block w-100"
+              alt="Bust of Seneca and Socrates"
+              style="height: 75vh"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seneca</h5>
+              <p>
+                Ancient bust of Seneca, part of the Double Herm of Socrates and
+                Seneca.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="public/seneca_and_nero.jpg"
+              class="d-block w-100"
+              alt="Seneca & Nero"
+              style="height: 75vh"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seneca Tutors Nero</h5>
+              <p>A statue showing Seneca as tutor to the young Emperor Nero.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="public/dying_seneca.jpg"
+              class="d-block w-100"
+              alt="Death of Seneca"
+              style="height: 75vh"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seneca's Death</h5>
+              <p>Death of Seneca by Peter Paul Rubens</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselSenecaImages"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselSenecaImages"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <br />
+      <h3 class="text-center">
+        Here is a timeline of what we know of Seneca's life:
+      </h3>
+      <br />
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <strong>Early Life: 4 BC - 37 AD</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <Li><b>4 BC</b> - Born in Cordoba, Hispania.</l1>
+                  <li><b>16 AD</b> - Travelled to Rome where he recieved training in rhetoric and philosophy for the next 16 years. Suffered from ill-health during this period and spent time in Egypt to recover. </li>
+                  <li><b>31 - 36 AD</b> - Elected as a local magistrate in Rome. The begginings of his political career.</li>
+                  <li><b>37 AD</b> - Ascension of Roman Emperor Caligula who disliked Seneca and planned to kill him. However, Senneca's illness saved him as many belived he was already dying.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+              <strong>Middle Age: 38 AD - 62 AD</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+              <ul>
+                <li><b>41 AD</b> - Caligula was assasinated and succeeded by his uncle Claudius who exiled Seneca to Corsica on the suggestion of his wife Melessina.</li>
+    <ul>
+      <li>During this exile Seneca wrote his three <i>Consolations</i> or dialouges to impart stoic philosophy and potentially secure his return. </li>
+      <li><i>On Anger</i> was written around this time as a study on the consequences of unchecked rage and how to control it.</li>
+    </ul>
+    <li><b>49 AD</b> - Seneca was recalled by Claudius on the instruction of his new wife Agrippina who wanted Seneca to act as tutor to her son Nero.</li>
+    <ul>
+      <li>Seneca's very well known <i>On the shortness of life</i> was written around this time to argue that any life, regardless of length, is well lived if it is lived with reason and wisdom and not wasted on trivial pursuits.</li>
+      <li>Prior to 54 AD  Seneca also wrote a number of plays. Nine tragedies survive and some of the most well known of these are <i>The Trojan Women</i>, <i>Phedra</i> and <i>Oedipus</i>.
+    </ul>
+    <li><b>54  - 62 AD</b> - Nero succeeded Claudius after his suspected poisoning by Agrippina. Senecca was appointed advisor to Nero and served alongside the Praetorian Prefect Burrus. During this period Seneca wrote a number of works:</li>
+    <ul>
+      <li><i>The Gourdification of the Divine Claudius</i>: A satire mocking Claudius and his descent into the afterlife.</li> 
+      <li><i>On Clemency</i>: An essay written to instruct Nero on the importance of clemency in marking the difference between just rulers and tyrants.</li>
+      <li><i>On the Happy Life</i>: A work written for Seneca's older brother that describes the importance of logic and reason in living a happy life.</li>
+   </ul>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <strong>Final Years: 62 AD - 65 AD</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                  <li><b>62 AD</b> - Burrus died and Seneca's influence over Nero markedly declined. He was accused of misappropriation of imperial funds and excess wealth. He propmptly donated a large portion of his fortune to the emperor and asked to be allowed retire to his country estates, which was granted.</li>
+    <ul>
+      <li>During his retirement Seneca regularly corresponded with Lucilius, procurator of Sicily, the collective work of these letters is known as <i>moral letters to Lucilius</i>. These works are valued for their insight, not only into stoicism, but daily life in ancient Rome.</li>
+    </ul>
+    <li><b>65 AD</b> - A conspiracy to assasinate Nero was uncovered and Seneca was implicated as a potential figurehead to the conspirators. Nero ordered Seneca to commit suicide, which he did. He was later buried simply and without funeral rights in accordance with his will which was written at the height of his power and influence.</li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container text-center">
+      <blockquote class="text-center">
+        <p><em>"True happiness is to enjoy the present, without anxious dependence upon the future, not to amuse ourselves with either hopes or fears but to rest satisfied with what we have, which is sufficient, for he that is so wants nothing. The greatest blessings of mankind are within us and within our reach. A wise man is content with his lot, whatever it may be, without wishing for what he has not"</em></p>
+        <cite>Lucius Annaeus Seneca</cite>
+      </blockquote>
+      
+      
+    <p class="text-center">If you have enjoyed this page and would like to learn more about Seneca please check out his
+
+    <a href="https://en.wikipedia.org/wiki/Seneca_the_Younger#Biography" target="_blank"> Wikipedia page</a> and also some of his works:</p>
+               <a class="btn btn-block btn-info" href="https://www.amazon.co.uk/Dialogues-Essays-Oxford-Worlds-Classics/dp/0199552401/ref=sr_1_1?ie=UTF8&qid=1469098546&sr=8-1&keywords=seneca+essays" target="_blank">Essays</a>
+              <a class="btn btn-block btn-success" href="https://www.amazon.co.uk/Six-Tragedies-Oxford-Worlds-Classics/dp/0192807064/ref=sr_1_9?ie=UTF8&qid=1469098648&sr=8-9&keywords=seneca" target="_blank">Plays</a>
+              <a class="btn btn-block btn-primary" href="https://www.amazon.co.uk/Letters-Stoic-Epistulae-Lucilium-Classics/dp/0140442103/ref=sr_1_2?ie=UTF8&qid=1469098648&sr=8-2&keywords=seneca" target="_blank">Letters</a>
+    </div>
+    <footer class="text-center">
+    <hr>
+      <p>Written and Coded by <a href="https://github.com/jonathonpday" target="_blank">Jonathon Day</a></p></footer>
+  </body>
+</html>
